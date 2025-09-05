@@ -4,8 +4,203 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wanderly</title>
+    <!-- css interno -->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <h1>Wanderly</h1>
+    <!-- header-navbar -->
+    <header class="header_section">
+        <h1>Wanderly</h1>
+        <div class="lines">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="header_icone">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <label>
+            <input type="checkbox">
+            <span class="menu"> <span class="hamburger"></span> </span>
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">Pacchetti</a> </li>
+                <li> <a href="#">destinazioni</a> </li>
+                <li> <a href="#">Chi-siamo</a> </li>
+                <li> <a href="#">Contatti</a> </li>
+            </ul>
+        </label>
+    </div>
+</header>
+<!-- fine-header -->
+<!-- main -->
+<main class="main_section">
+    <section class="hero_section">
+        <div class="hero_tp">
+            <h2>Scopri il mondo con Wanderly!🌍</h2>
+            <p>Esplora destinazioni da sogno, vivi avventure indimenticabili e crea ricordi che dureranno per sempre. Prenota ora la tua prossima fuga con noi!</p>
+            
+        </div>
+        <div class="hero_bttm">
+            <button class="btn_custom" >Prenota ora</button>
+            <button class="btn_custom" >Scopri di più</button>
+        </div>
+    </section>
+    <!-- fine hero section -->
+    
+    <!-- section la tua destinazione -->
+    <section class="la_tua_destinazione">
+        <div class="destinazione_img">
+            <img src="../img/destination.jpg" alt="">
+        </div>
+        <div class="la_destinazione_text">
+            <h2>La tua prossima destinazione ti aspetta!</h2>
+            <p>Che tu stia cercando avventure esotiche, relax sulle spiagge o esplorazioni culturali, abbiamo la destinazione perfetta per te. Scopri le nostre offerte esclusive e inizia a pianificare il viaggio dei tuoi sogni oggi stesso!</p>
+            <button class="btn_custom"><a href="">Scopri di più</a></button>
+        </div> 
+    </section>
+    <!-- fine la mia destinazione -->
+    <!-- destinazioni-top -->
+    <section class="destinazioni_section">
+        <h2>Destinazioni del momento</h2>
+        <div class="card_wrapper">
+            <div class="card_custom">
+                <div class="card.img">
+                    <img src="../img/giappone.jpg" alt="">
+                </div>
+                <div class="card_body">
+                    <h3>Giappone</h3>
+                    <p>Un mix unico di tradizione e modernità.</p>
+                </div>
+                <div class="card_footer">
+                    <button href="#" class="btn_custom">Scopri</button>
+                </div>
+            </div>
+            
+            <div class="card_custom">
+                <div class="card.img">
+                    <img src="../img/maldive.jpg" alt="">
+                </div>
+                <div class="card_body">
+                    <h3>Maldives</h3>
+                    <p>Spiagge paradisiache e acqua cristallina.</p>
+                </div>
+                <div class="card_footer">
+                    <button href="#" class="btn_custom">Scopri</button>
+                </div>
+            </div>
+            
+            <div class="card_custom">
+                <div class="card.img">
+                    <img src="../img/sharm_el_sheikh.jpg" alt="">
+                </div>
+                <div class="card_body">
+                    <h3>Sharm El Sheikh</h3>
+                    <p>Relax sul Mar Rosso e immersioni spettacolari.</p>
+                </div>
+                <div class="card_footer">
+                    <button href="#" class="btn_custom">Scopri</button>
+                </div>
+            </div>
+            
+            <div class="card_custom">
+                <div class="card.img">
+                    <img src="../img/sud_africa.jpg" alt="">
+                </div>
+                <div class="card_body">
+                    <h3>Sudafrica</h3>
+                    <p>Avventure tra natura selvaggia e panorami mozzafiato.</p>
+                </div>
+                <div class="card_footer">
+                    <button href="#" class="btn_custom">Scopri</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fine-destinazioni-top -->
+    <!-- info point -->
+    <section class="info_viaggio">
+        <div class="info_img">
+            <img src="../img/info.jpg" alt="Informazioni di viaggio">
+        </div>
+        <div class="info_text">
+            <h2>Preparati al meglio per il tuo viaggio ✈️</h2>
+            <p>
+                Ogni paese ha regole e requisiti specifici: documenti di viaggio, 
+                visti, assicurazioni sanitarie o vaccinazioni obbligatorie. 
+                Prima di partire, è fondamentale informarsi per evitare imprevisti.
+            </p>
+            <p>
+                Consulta sempre le linee guida ufficiali per viaggiare in sicurezza.
+            </p>
+            <button class="btn_custom"><a href="https://www.viaggiaresicuri.it" target="_blank" > Vai e Sicuro</a></button>
+        </div>
+    </section>
+    <!-- fine info-point -->
+    
+    <!-- chi siamo -->
+    <section class="chi_siamo">
+        <div class="chi_img">
+            <img src="../img/team.jpg" alt="Il nostro team">
+        </div>
+        <div class="chi_text">
+            <h2>Chi Siamo</h2>
+            <p>Siamo un team di appassionati viaggiatori con l’obiettivo di rendere  ogni viaggio un’esperienza unica e indimenticabile. Dal relax sulle spiagge esotiche alle avventure tra natura selvaggia, ti aiutiamo a pianificare la vacanza perfetta.</p>
+            <p> La nostra missione è guidarti passo dopo passo: dalla scelta della  destinazione fino al rientro, con offerte esclusive e assistenza dedicata.
+            </p>
+            <button class="btn_custom" > <a href="#contact" >Contattaci</a></button>
+        </div>
+    </section>
+    <!-- fine chi siamo -->
+</main>
+<!-- fine main -->
+<!-- inizio footer -->
+<footer class="footer">
+    <div class="footer_container">
+        
+        <!-- Logo e descrizione -->
+        <div class="footer_txt">
+            <h3>Wanderly</h3>
+            <p>
+                Organizziamo viaggi unici in tutto il mondo.  
+                Scopri con noi nuove culture, paesaggi e avventure indimenticabili.
+            </p>
+        </div>
+        
+        <!-- Link veloci -->
+        <div class="footer_links">
+            <h4>Link utili</h4>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#destinations">Destinazioni</a></li>
+                <li><a href="#packages">Pacchetti</a></li>
+                <li><a href="#about">Chi siamo</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+        </div>
+        
+        <!-- Contatti -->
+        <div class="footer_contact">
+            <h4>Contatti</h4>
+            <p>Email: info@travelco.com</p>
+            <p>Telefono: +39 012 345 6789</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- Copyright -->
+    <div class="footer_bottom">
+        <p>© 2025 TravelCo. Tutti i diritti riservati.</p>
+    </div>
+</footer>
+
+<!-- fontAweson -->
+<script src="https://kit.fontawesome.com/2b8422c872.js" crossorigin="anonymous"></script>
 </body>
 </html>
