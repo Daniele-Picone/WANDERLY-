@@ -382,3 +382,149 @@ label a {
 .footer_bottom{
     text-align: center;
 }
+
+
+
+
+
+@media screen and (min-width: 738px) and (max-width: 1024px)
+{
+    .header_section h1{
+        font-size: 2rem;
+    }
+
+    .header_icone{
+        display: none;
+    }
+    .lines{
+    display: none; 
+    }
+
+  /* query-navbar */
+    label .menu,
+    label input {
+    display: none;
+    }
+    .nav_links {
+    position: static;     /* tolgo absolute */
+    transform: none;      /* niente translate */
+    opacity: 1 !important;/* sempre visibili */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0; 
+    height: 60px;
+    }
+    
+    .nav_links li{
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    label ul li a {
+    color: var(--text-light); /* colore coerente con navbar */
+    font-weight: 600;
+    text-decoration: none;
+    
+    }
+
+    label ul li a:hover {
+    color: var(--text-secondary);
+    }
+
+
+.main_section{
+    max-width: 70%;
+    margin: auto;
+    gap: var(--space-lg);
+}
+    
+}
+@media screen and (min-width: 1024px){
+    .header_section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+    }
+    .header_section h1{
+        font-size: 2rem;
+    }
+
+    .header_icone{
+        display: none;
+    }
+    .lines{
+    display: none; 
+    }
+
+  /* query-navbar */
+    label .menu,
+    label input {
+    display: none;
+    }
+    .nav_links {
+    position: static;     /* tolgo absolute */
+    transform: none;      /* niente translate */
+    opacity: 1 !important;/* sempre visibili */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0; 
+    height: 60px;
+    }
+    
+    .nav_links li{
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    label ul li a {
+    color: var(--text-light); /* colore coerente con navbar */
+    font-weight: 600;
+    text-decoration: none;
+    
+    }
+
+    label ul li a:hover {
+    color: var(--text-secondary);
+    }
+
+
+
+
+
+
+    .main_section{
+    max-width: 80%;
+    margin-top:var(--space-lg) ;    
+    margin-left: auto;
+    margin-right: auto;
+}
+    .hero_section{
+        min-height: 300px;
+    }
+    .hero_bttm{
+        display: flex;
+        justify-content: center ;
+    }
+    .chi_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .chi_siamo img{
+        width: 50%;
+        
+    }
+
+}
